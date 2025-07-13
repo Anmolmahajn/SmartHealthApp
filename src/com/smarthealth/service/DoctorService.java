@@ -20,4 +20,13 @@ public class DoctorService implements DoctorServiceInterface {
         return doctorDao.findAll();
     }
 
+
+    public boolean removeDoctorById(int id) {
+        try {
+            return doctorDao.deleteById(id);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return false;
+        }
+    }
 }

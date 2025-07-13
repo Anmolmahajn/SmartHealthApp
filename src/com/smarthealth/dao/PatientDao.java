@@ -1,7 +1,9 @@
 package com.smarthealth.dao;
 import com.smarthealth.dao.interfaces.PatientDaoInterface;
 import com.smarthealth.model.Patient;
+import com.smarthealth.util.DBConnector;
 
+import java.sql.*;
 import java.util.List;
 import java.util.ArrayList;
 

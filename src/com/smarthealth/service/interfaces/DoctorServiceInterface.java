@@ -6,4 +6,5 @@ import java.util.List;
 public interface DoctorServiceInterface {
     void registerDoctor(Doctor doctor) throws Exception;
     List<Doctor> getDoctors();
+    boolean removeDoctorById(int id) ;
 }
