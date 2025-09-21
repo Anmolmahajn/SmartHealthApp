@@ -14,6 +14,14 @@ public class Patient {
         this.contact = contact;
     }
 
+    public Patient(int id, String name, String email, String password, String contact) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.contact = contact;
+    }
+
     public int getId() {return id;}
     public void setId(int id) {this.id = id;}
 

@@ -11,4 +11,8 @@ public interface AppointmentServiceInterface {
     void bookAppointment(Patient patient, Doctor doctor, LocalDate date);
     List<Appointment> getAppointmentsForPatient(Patient patient);
     List<Appointment> getAllAppointments();
+
+    List<Appointment> getAppointmentsForDoctor(Doctor doctor);
+    boolean cancelAppointment(int appointmentId);
+    List<Appointment> getAppointmentsByDate(LocalDate date);
 }

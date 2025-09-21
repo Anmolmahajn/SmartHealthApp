@@ -13,7 +13,7 @@ public class PatientController {
 
     public void start(){
         while(true){
-            System.out.println("1. Register");
+            System.out.println("\n1. Register");
             System.out.println("2. Login");
             System.out.println("3. View Profile");
             System.out.println("4. Appointments");
@@ -25,12 +25,21 @@ public class PatientController {
 
             switch(choice){
                 case 1: registerPatient();
+                    break;
                 case 2: login();
+                    break;
                 case 3: viewProfile();
-                case 4: appointmentController.start(currentPatient);
+                    break;
+                case 4:if(currentPatient!=null) {
+                    appointmentController.start(currentPatient);
+                }else{
+                    System.out.println("login to view appointments");
+                }
+                    break;
                 case 5: {
                     System.out.println("Logged out");
-                    return;
+                    currentPatient = null;
+                    break;
                 }
                 case 6: {
                     return;}
@@ -62,24 +71,20 @@ public class PatientController {
         }
     }
 
-    private void login(){
+    private void login() {
         System.out.print("Enter email: ");
         String email = scanner.nextLine();
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
 
         try {
-            Patient patient = patientService.login(email,password);
-            if(patient != null){
-                 currentPatient = patient;
-                System.out.println("Patient logged successfully");
-            }else{
-                System.out.println("Patient not logged in");
-            }
-        }catch (Exception e){
+            currentPatient = patientService.login(email, password);
+            System.out.println("Patient logged successfully");
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
+
 
     private void viewProfile(){
         if(currentPatient == null){
@@ -91,3 +96,4 @@ public class PatientController {
         System.out.println("Contact: " + currentPatient.getContact());
     }
 }
+
