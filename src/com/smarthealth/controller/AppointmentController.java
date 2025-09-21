@@ -65,6 +65,7 @@ public class AppointmentController {
 
 
 
+
     private void viewAppointment(Patient patient) {
         List<Appointment> appointments = appointmentService.getAppointmentsForPatient(patient);
         if(appointments.isEmpty()) {

@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3223a09e-5578-4300-a083-881fcfefc9f7" name="Changes" comment="main setup">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/healthapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/controller/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/dao/PatientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/dao/PatientDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/dao/interfaces/PatientDaoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/dao/interfaces/PatientDaoInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/main/SmartHealthApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/main/SmartHealthApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/model/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/AppointmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/DoctorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/PatientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/AppointmentServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/AppointmentServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/DoctorServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/DoctorServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/PatientServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/PatientServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/ReminderServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/service/interfaces/ReminderServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/util/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/util/NotificationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/util/NotificationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/smarthealth/controller/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smarthealth/controller/AppointmentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,11 +13,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="patient_db" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Anmolmahajn"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Anmolmahajn/SmartHealthApp.git",
+    "accountId": "a8f80fba-bdbf-4508-b322-e83920092487"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "Anmolmahajn",
+    "repository": "SmartHealthApp"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="32zyNfgEq9l2g8lKXvHlXilFToF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,11 +55,16 @@
     "Application.SmartHealthApp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "patient__db",
+    "git-widget-placeholder": "#2 on patient__db",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mahaj/IdeaProjects/SmartHealthApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -76,7 +89,25 @@
       <option name="presentableId" value="Default" />
       <updated>1758437657035</updated>
       <workItem from="1758437658385" duration="38000" />
+      <workItem from="1758437894420" duration="2071000" />
     </task>
+    <task id="LOCAL-00001" summary="main setup">
+      <option name="closed" value="true" />
+      <created>1758437911020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758437911020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="main setup">
+      <option name="closed" value="true" />
+      <created>1758437917534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758437917534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="MARK_IGNORED_AS_EXCLUDED" value="true" />
+    <MESSAGE value="main setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="main setup" />
   </component>
 </project>
