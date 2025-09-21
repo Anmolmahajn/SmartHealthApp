@@ -6,7 +6,7 @@ import com.smarthealth.controller.DoctorController;
 import java.util.Scanner;
 
 public class SmartHealthApp {
-    public static void main(String[] args) {
+     static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 

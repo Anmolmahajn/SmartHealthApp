@@ -29,4 +29,19 @@ public class DoctorService implements DoctorServiceInterface {
             return false;
         }
     }
+
+    @Override
+    public Doctor findDoctorById(int id) {
+        return null;
+    }
+
+    @Override
+    public List<Doctor> findDoctorsBySpecialization(String specialization) {
+        return List.of();
+    }
+
+    @Override
+    public List<Doctor> findDoctorsByLocation(String location) {
+        return List.of();
+    }
 }

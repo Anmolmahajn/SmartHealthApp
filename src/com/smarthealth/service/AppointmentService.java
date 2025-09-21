@@ -28,4 +28,19 @@ public class AppointmentService implements AppointmentServiceInterface {
     public List<Appointment> getAllAppointments() {
         return appointmentDao.findAll();
     }
+
+    @Override
+    public List<Appointment> getAppointmentsForDoctor(Doctor doctor) {
+        return List.of();
+    }
+
+    @Override
+    public boolean cancelAppointment(int appointmentId) {
+        return false;
+    }
+
+    @Override
+    public List<Appointment> getAppointmentsByDate(LocalDate date) {
+        return List.of();
+    }
 }
